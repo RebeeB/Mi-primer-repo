@@ -1,0 +1,63 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #container{
+    width: 100%;
+    margin: 0px auto;
+    border: 3px solid palevioletred;
+ }
+
+
+ header {
+    text-align: center;
+
+ }
+
+nav{
+    background-color: darkgray;
+    height: 40px;
+
+}
+
+ nav ul li{
+    float: left;
+    list-style: none;
+    margin: 15px;
+ }
+
+ .clearfix{
+    clear:both;
+ }
+
+ #content{
+    float:left;
+    width: 80%;
+    background:lightgray;
+    min-height: 500px;
+
+ }
+
+ article h2{
+    font-size: 20px;
+    
+ }
+
+ aside{
+    float:left;
+    width: 20%;
+    background: honeydew;
+    
+}
+
+aside span {
+    color: rgb(226, 31, 5);
+}
+
+
+footer{
+    text-align: left;
+    height: 50px ; 
+    
+
+    }
